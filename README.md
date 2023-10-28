@@ -1,7 +1,25 @@
 # Orientação a Objetos e UML: Diagramação de Classes do Iphone
 
 <p>Diagrama UML que representa a estrutura e interfaces de sistemas e modelagem do Iphobe, um dispositovel movél que terá funcinalidades de reprodutor de músicas, telefone e navegador de internet. O diagrama foi criado em cumprimento ao desafio de projeto do Bootcamp Santander coders 2023 - Fullstack Java e Angular juntamente com a Dio.</p>
-(iNCLUIR IMAGEM DAS CLASSES UML)
+
+
+## Descrição das Interfaces e Classes
+
+### Reprodutor Musical (ReprodutorMusical)
+
+A interface `Reprodutor Musical` é responsável por implementar a funcionalidade de reprodução de arquivos de áudio. Ela possui métodos como `tocar()`, `pausar()`, e `selecionarMusica()`. A classe `Musica` armazena informações sobre as músicas.
+
+### Aparelho Telefônico (AparelhoTelefonico)
+
+A interface `Aparelho Telefônico` é responsável por implementar a funcionalidade de um telefone. Ela possui métodos como `ligar()`, `atender()`, e `iniciarCorreioVoz()`. A classe `Contato` armazena informações de contatos.
+
+### Navegador de Internet (NavegadorInternet)
+
+A interface `Navegador de Internet` é responsável por implementar a funcionalidade de um navegador web. Ela possui métodos como `exibirPagina()`, `adicionarNovaAba()`, e `atualizarPagina()`.
+
+## Entidades
+
+Existem algumas entidades representadas no diagrama, como `IPhone`, `Chrome`, `Motorola 110`, `Walkman` e `Discman`, que representam diferentes dispositivos ou aplicativos que podem usar as interfaces e classes mencionadas acima
 
 ## Como Visualizar o Diagrama
 
